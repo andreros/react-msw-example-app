@@ -31,6 +31,7 @@ The code in this application is meant to work as a reference and a cluster of wo
 - `Webpack` to bundle the application and serve it in development mode;
 - `Mock Service Worker` to mock API calls;
 - `PicniCSS` lightweight CSS framework for UI styling;
+- `Statoscope` to generate reports about the application;
 
 ## Installation and application bootstrap
 
