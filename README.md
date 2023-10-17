@@ -23,15 +23,21 @@ The code in this application is meant to work as a reference and a cluster of wo
 
 ## Application Tech Stack
 
-- `React` framework (with Typescript) for the overall application development;
-- `Typescript` coding language;
-- `SASS` to build the needed application styles;
-- `Axios` to communicate with the backend API;
-- `DotEnv` to load project environment variables;
-- `Webpack` to bundle the application and serve it in development mode;
-- `Mock Service Worker` to mock API calls;
-- `PicniCSS` lightweight CSS framework for UI styling;
-- `Statoscope` to generate reports about the application;
+-   `React` framework (with Typescript) for the overall application development;
+-   `Typescript` coding language;
+-   `Mock Service Worker` to mock API calls;
+-   `SASS` style pre-processor to build the needed application styles;
+-   `Axios` to communicate with the backend API;
+-   `DotEnv` to load project environment variables;
+-   `PicniCSS` lightweight CSS framework for UI styling;
+
+## Application Support tools
+
+-   `Prettier` for code formatting;
+-   `Webpack` to bundle the application and serve it in development mode;
+-   `Log4Brains` to manage Architectural Decision Record (ADR) and generate static HTML knowledge base;
+-   `Statoscope` to generate reports about the application;
+
 
 ## Installation and application bootstrap
 
@@ -46,7 +52,7 @@ npm start
 
 Follow the application onscreen indications. Use your browser `developer tools`, in particular the `console` and `network` to track the application results.
 
-## Where to go from here (read it 'next developments')
+## Where to go from here (read it "further improvements")
 
 - Type `Axios` API object / models responses correctly;
 - Add `react-query` usage example;
